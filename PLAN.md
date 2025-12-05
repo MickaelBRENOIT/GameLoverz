@@ -61,17 +61,17 @@ Avoir une config Gradle propre et standard pour le projet.
 
 ### Actions
 
-- [ ] Ouvrir `settings.gradle` / `settings.gradle.kts` et vérifier :
-  - [ ] `google()` et `mavenCentral()` sont bien présents dans `repositories`
-- [ ] Ouvrir le `build.gradle` / `build.gradle.kts` racine et vérifier / ajouter :
-  - [ ] Plugin `com.android.application` (AGP) déclaré avec version stable
-  - [ ] Plugin `org.jetbrains.kotlin.android` déclaré avec version stable
-  - [ ] Plugin `com.google.dagger.hilt.android` déclaré (apply false)
+- [x] Ouvrir `settings.gradle` / `settings.gradle.kts` et vérifier :
+  - [x] `google()` et `mavenCentral()` sont bien présents dans `repositories`
+- [x] Ouvrir le `build.gradle` / `build.gradle.kts` racine et vérifier / ajouter :
+  - [x] Plugin `com.android.application` (AGP) déclaré avec version stable
+  - [x] Plugin `org.jetbrains.kotlin.android` déclaré avec version stable
+  - [x] Plugin `com.google.dagger.hilt.android` déclaré (apply false)
 
 ### Vérifications manuelles
 
-- [ ] Le projet **sync Gradle** sans erreur
-- [ ] Aucune erreur rouge dans la fenêtre Gradle ou dans le `build.gradle` racine
+- [x] Le projet **sync Gradle** sans erreur
+- [x] Aucune erreur rouge dans la fenêtre Gradle ou dans le `build.gradle` racine
 
 ---
 
@@ -83,24 +83,23 @@ Configurer correctement le module application pour Compose, Java 17, etc.
 
 ### Actions
 
-- [ ] Dans `app/build.gradle(.kts)`, vérifier / configurer :
-  - [ ] `namespace = "com.gameloverz.app"` (ou namespace choisi)
-  - [ ] `compileSdk` = dernière version supportée par l’AGP (ex 34/35)
-  - [ ] `minSdk = 31`
-  - [ ] `targetSdk` = même valeur que `compileSdk`
-- [ ] Configurer Java/Kotlin :
-  - [ ] `sourceCompatibility = JavaVersion.VERSION_17`
-  - [ ] `targetCompatibility = JavaVersion.VERSION_17`
-  - [ ] `kotlinOptions.jvmTarget = "17"`
+- [x] Dans `app/build.gradle(.kts)`, vérifier / configurer :
+  - [x] `namespace = "com.gameloverz.app"` (ou namespace choisi)
+  - [x] `compileSdk` = dernière version supportée par l’AGP (ex 34/35)
+  - [x] `minSdk = 31`
+  - [x] `targetSdk` = même valeur que `compileSdk`
+- [x] Configurer Java/Kotlin :
+  - [x] `sourceCompatibility = JavaVersion.VERSION_17`
+  - [x] `targetCompatibility = JavaVersion.VERSION_17`
+  - [x] `kotlinOptions.jvmTarget = "17"`
 - [ ] Activer Compose :
-  - [ ] `buildFeatures { compose = true }`
-  - [ ] `composeOptions.kotlinCompilerExtensionVersion` renseignée
+  - [x] `buildFeatures { compose = true }`
 
 ### Vérifications manuelles
 
-- [ ] Sync Gradle OK après modification
-- [ ] Build du projet OK
-- [ ] L’app se lance toujours sur un device sans crash
+- [x] Sync Gradle OK après modification
+- [x] Build du projet OK
+- [x] L’app se lance toujours sur un device sans crash
 
 ---
 
