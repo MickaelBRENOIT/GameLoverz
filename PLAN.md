@@ -35,21 +35,21 @@ Créer le squelette du projet Android avec les bons paramètres de base.
 
 ### Actions
 
-- [ ] Créer un projet Android :
-  - [ ] Nom du projet : `GameLoverz` (ou équivalent)
-  - [ ] Package name : `com.gameloverz.app` (ou autre, mais fixé)
-  - [ ] Langage : **Kotlin**
-  - [ ] Minimum SDK : **Android 12 (API 31)**
-  - [ ] Cocher : **Use Jetpack Compose**
-- [ ] Configurer le contrôle de version :
-  - [ ] Initialiser **Git** dans le dossier du projet
-  - [ ] Créer un premier commit : `chore: initial android project`
+- [x] Créer un projet Android :
+  - [x] Nom du projet : `GameLoverz` (ou équivalent)
+  - [x] Package name : `com.gameloverz.app` (ou autre, mais fixé)
+  - [x] Langage : **Kotlin**
+  - [x] Minimum SDK : **Android 12 (API 31)**
+  - [x] Cocher : **Use Jetpack Compose**
+- [x] Configurer le contrôle de version :
+  - [x] Initialiser **Git** dans le dossier du projet
+  - [x] Créer un premier commit : `chore: initial android project`
 
 ### Vérifications manuelles
 
-- [ ] L’application compile et se lance sur un émulateur ou un device
-- [ ] Un écran par défaut (template Android) s’affiche sans crash
-- [ ] `git status` indique un working directory propre
+- [x] L’application compile et se lance sur un émulateur ou un device
+- [x] Un écran par défaut (template Android) s’affiche sans crash
+- [x] `git status` indique un working directory propre
 
 ---
 
