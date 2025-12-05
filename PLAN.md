@@ -176,26 +176,26 @@ Mettre en place la navigation de base (graph & bottom bar) sans logique métier.
 
 ### Actions
 
-- [ ] Créer un composable `GameLoverzApp()` qui sera le root de l’app
-- [ ] Installer `NavHost` + `NavController` dans `GameLoverzApp()`
-- [ ] Définir au minimum 3 routes :
-  - [ ] `collection`
-  - [ ] `wishlist`
-  - [ ] `settings`
-- [ ] Créer une **bottom navigation bar** qui permet de :
-  - [ ] Naviguer vers `collection`
-  - [ ] Naviguer vers `wishlist`
-  - [ ] Naviguer vers `settings`
-- [ ] Utiliser des écrans placeholders :
-  - [ ] `CollectionScreen()` – affiche juste un texte « Collection »
-  - [ ] `WishlistScreen()` – affiche « Wishlist »
-  - [ ] `SettingsScreen()` – affiche « Paramètres »
+- [x] Créer un composable `GameLoverzApp()` qui sera le root de l’app
+- [x] Installer `NavHost` + `NavController` dans `GameLoverzApp()`
+- [x] Définir au minimum 3 routes :
+  - [x] `collection`
+  - [x] `wishlist`
+  - [x] `settings`
+- [x] Créer une **bottom navigation bar** qui permet de :
+  - [x] Naviguer vers `collection`
+  - [x] Naviguer vers `wishlist`
+  - [x] Naviguer vers `settings`
+- [x] Utiliser des écrans placeholders :
+  - [x] `CollectionScreen()` – affiche juste un texte « Collection »
+  - [x] `WishlistScreen()` – affiche « Wishlist »
+  - [x] `SettingsScreen()` – affiche « Paramètres »
 
 ### Vérifications manuelles
 
-- [ ] L’app démarre directement sur un des écrans (par ex. `collection`)
-- [ ] Un clic sur chaque item de la bottom bar change bien d’écran
-- [ ] Pas de crash en navigation (back, rotation éventuelle)
+- [x] L’app démarre directement sur un des écrans (par ex. `collection`)
+- [x] Un clic sur chaque item de la bottom bar change bien d’écran
+- [x] Pas de crash en navigation (back, rotation éventuelle)
 
 ---
 
