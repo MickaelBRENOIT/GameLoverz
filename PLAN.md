@@ -111,33 +111,33 @@ Installer les plugins et dépendances essentielles (Compose, Lifecycle, Navigati
 
 ### Actions
 
-- [ ] Ajouter les plugins dans `app/build.gradle(.kts)` :
-  - [ ] `id("com.android.application")`
-  - [ ] `id("org.jetbrains.kotlin.android")`
-  - [ ] `id("com.google.dagger.hilt.android")`
-  - [ ] `kotlin("kapt")`
-- [ ] Ajouter la **Compose BOM** dans `dependencies`
-- [ ] Ajouter les dépendances Compose :
-  - [ ] `androidx.compose.ui:ui`
-  - [ ] `androidx.compose.material3:material3`
-  - [ ] `androidx.compose.ui:ui-tooling-preview`
-  - [ ] `androidx.compose.foundation:foundation`
-- [ ] Ajouter les dépendances Activity/Compose :
-  - [ ] `androidx.activity:activity-compose`
-- [ ] Ajouter Lifecycle / ViewModel :
-  - [ ] `lifecycle-runtime-ktx`
-  - [ ] `lifecycle-viewmodel-compose`
-- [ ] Ajouter Navigation Compose :
-  - [ ] `androidx.navigation:navigation-compose`
-- [ ] Ajouter Coroutines :
-  - [ ] `kotlinx-coroutines-core`
-  - [ ] `kotlinx-coroutines-android`
+- [x] Ajouter les plugins dans `app/build.gradle(.kts)` :
+  - [x] `id("com.android.application")`
+  - [x] `id("org.jetbrains.kotlin.android")`
+  - [x] `id("com.google.dagger.hilt.android")`
+  - [x] `kotlin("kapt")`
+- [x] Ajouter la **Compose BOM** dans `dependencies`
+- [x] Ajouter les dépendances Compose :
+  - [x] `androidx.compose.ui:ui`
+  - [x] `androidx.compose.material3:material3`
+  - [x] `androidx.compose.ui:ui-tooling-preview`
+  - [x] `androidx.compose.foundation:foundation`
+- [x] Ajouter les dépendances Activity/Compose :
+  - [x] `androidx.activity:activity-compose`
+- [x] Ajouter Lifecycle / ViewModel :
+  - [x] `lifecycle-runtime-ktx`
+  - [x] `lifecycle-viewmodel-compose`
+- [x] Ajouter Navigation Compose :
+  - [x] `androidx.navigation:navigation-compose`
+- [x] Ajouter Coroutines :
+  - [x] `kotlinx-coroutines-core`
+  - [x] `kotlinx-coroutines-android`
 
 ### Vérifications manuelles
 
-- [ ] Sync Gradle OK
-- [ ] Création d’un simple écran Compose dans `MainActivity` fonctionne
-- [ ] L’app démarre et affiche un composable « Hello GameLoverz » (ou équivalent)
+- [x] Sync Gradle OK
+- [x] Création d’un simple écran Compose dans `MainActivity` fonctionne
+- [x] L’app démarre et affiche un composable « Hello GameLoverz » (ou équivalent)
 
 ---
 
@@ -149,22 +149,22 @@ Configurer l’injection de dépendances Hilt pour le projet.
 
 ### Actions
 
-- [ ] Ajouter les dépendances Hilt :
-  - [ ] `com.google.dagger:hilt-android`
-  - [ ] `com.google.dagger:hilt-android-compiler` avec `kapt`
-  - [ ] `androidx.hilt:hilt-navigation-compose`
-- [ ] Créer une classe `GameLoverzApp : Application` annotée avec :
-  - [ ] `@HiltAndroidApp`
-- [ ] Déclarer `android:name=".GameLoverzApp"` dans le `AndroidManifest.xml` (balise `<application>`)
-- [ ] Annoter l’`Activity` principale avec :
-  - [ ] `@AndroidEntryPoint`
+- [x] Ajouter les dépendances Hilt :
+  - [x] `com.google.dagger:hilt-android`
+  - [x] `com.google.dagger:hilt-android-compiler` avec `kapt`
+  - [x] `androidx.hilt:hilt-navigation-compose`
+- [x] Créer une classe `GameLoverzApp : Application` annotée avec :
+  - [x] `@HiltAndroidApp`
+- [x] Déclarer `android:name=".GameLoverzApp"` dans le `AndroidManifest.xml` (balise `<application>`)
+- [x] Annoter l’`Activity` principale avec :
+  - [x] `@AndroidEntryPoint`
 
 ### Vérifications manuelles
 
-- [ ] Sync Gradle OK
-- [ ] Build OK
-- [ ] L’app se lance avec Hilt activé (pas d’erreur « Hilt Android App not found »)
-- [ ] Ajout d’un ViewModel anoté `@HiltViewModel` + injection d’une dépendance simple fonctionne (test minimal)
+- [x] Sync Gradle OK
+- [x] Build OK
+- [x] L’app se lance avec Hilt activé (pas d’erreur « Hilt Android App not found »)
+- [x] Ajout d’un ViewModel anoté `@HiltViewModel` + injection d’une dépendance simple fonctionne (test minimal)
 
 ---
 
